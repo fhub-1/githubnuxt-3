@@ -1,5 +1,8 @@
 <template>
+
   <div>
-    {{ 1 + 1 }}
+    {{ $route.params.user_id }}
   </div>
 </template>
+
+<script setup></script>
